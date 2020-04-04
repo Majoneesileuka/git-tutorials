@@ -1,5 +1,7 @@
 # Git basics commands
 
+Basic commands to get you started with git locally: branching, merging, making commits and viewing git logs.
+
 ## To configure git for the first time
 
 `git config --global user.name "Your Name"`
