@@ -20,6 +20,10 @@ Basic commands to get you started with git locally: branching, merging, making c
 
 `git checkout -b branch_name`
 
+## To delete branch
+
+`git branch -d branch_name`
+
 ## To move between already created branches
 
 `git checkout branch_name`
@@ -51,6 +55,10 @@ Basic commands to get you started with git locally: branching, merging, making c
 ### To commit all files and writing commit message directly to command line. Note with this command you don't need git add filename. But be careful as this command takes all modified files to the commit
 
 `git commit -am "Commit message here"`
+
+## To merge another branch to the branch you're currently on
+
+`git merge branch_name`
 
 ## To see git log (history)
 
